@@ -38,9 +38,12 @@ ol {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
-  margin: 0 auto;
   min-height: 100vh;
+  margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -53,7 +56,6 @@ ol {
   gap: 30px;
   width: 1200px;
   padding: 0 30px;
-  margin-top: 131px;
 }
 
 .result {
